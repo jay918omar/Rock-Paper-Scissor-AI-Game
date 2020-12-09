@@ -5,21 +5,6 @@ Created on Fri Oct  9 15:06:48 2020
 @author: TARUN OMAR
 """
 
-desc = '''Script to gather data images with a particular label.
-
-Usage: python gather_images.py <label_name> <num_samples>
-
-The script will collect <num_samples> number of images and store them
-in its own directory.
-
-Only the portion of the image within the box displayed
-will be captured and stored.
-
-Press 'a' to start/pause the image collecting process.
-Press 'q' to quit.
-
-'''
-
 import cv2
 import os
 
